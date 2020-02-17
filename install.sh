@@ -2,18 +2,33 @@
 
 echo "Setting up your PC..."
 
-# Update Ubuntu
-apt-get update
-
-#  Check to see if Xclip is installed if not install it
-if [ $(dpkg-query -W -f='${Status}' xclip 2>/dev/null | grep -c "ok installed") -eq 0 ];
-then
-  echo 'xclip not installed .... installing now!'
-  sudo apt install xclip -y;
+# install docker 
+if test ! $(which docker); then
+    curl -fsSL https://get.docker.com -o get-docker.sh
+    sh get-docker.sh
+    rm get-docker.sh
 fi
 
-# Install composer
-apt-get install composer
+#install docker-compose
+if test ! $(which docker-compose); then
+    sudo curl -L "https://github.com/docker/compose/releases/download/1.25.3/docker-compose-$(uname -s)-$(uname -m)" -o /usr/local/bin/docker-compose
+    sudo chmod +x /usr/local/bin/docker-compose
+    sudo ln -s /usr/local/bin/docker-compose /usr/bin/docker-compose
+fi
+
+#install brew
+# Check for Homebrew and install if we don't have it
+if test ! $(which brew); then
+    sh -c "$(curl -fsSL https://raw.githubusercontent.com/Linuxbrew/install/master/install.sh)"
+    eval $(/home/linuxbrew/.linuxbrew/bin/brew shellenv)
+fi
+
+# Update Homebrew recipes
+brew update
+
+# Install all our dependencies with bundle (See Brewfile)
+brew tap homebrew/bundle
+brew bundle
 
 # Install global Composer packages
 # /usr/local/bin/composer global require laravel/installer laravel/spark-installer laravel/valet
