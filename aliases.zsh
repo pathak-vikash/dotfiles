@@ -6,7 +6,6 @@
 
 #copy / paste for ubuntu - wsl
 alias pbcopy='clip.exe'
-alias pbpaste='paste.exe'
 
 alias copyssh="pbcopy < $HOME/.ssh/id_rsa.pub"
 alias reloadcli="source $HOME/.zshrc"
