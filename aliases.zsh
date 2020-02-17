@@ -1,11 +1,20 @@
 # Shortcuts
-alias copyssh="clip.exe < $HOME/.ssh/id_rsa.pub"
+
+#copy / paste for ubuntu - native os
+# alias pbcopy='xclip -selection clipboard'
+# alias pbpaste='xclip -selection clipboard -o'
+
+#copy / paste for ubuntu - wsl
+alias pbcopy='clip.exe'
+alias pbpaste='paste.exe'
+
+alias copyssh="pbcopy < $HOME/.ssh/id_rsa.pub"
 alias reloadcli="source $HOME/.zshrc"
 alias reloaddns="dscacheutil -flushcache && sudo killall -HUP mDNSResponder"
 alias ll="/usr/local/opt/coreutils/libexec/gnubin/ls -ahlF --color --group-directories-first"
 weather() { curl -4 wttr.in/${1:-antwerp} }
 alias phpstorm='open -a /Applications/PhpStorm.app "`pwd`"'
-alias shrug="echo '¯\_(ツ)_/¯' | clip.exe"
+alias shrug="echo '¯\_(ツ)_/¯' | pbcopy"
 alias c="clear"
 alias zbundle="antibody bundle < $DOTFILES/zsh_plugins.txt > $DOTFILES/zsh_plugins.sh"
 

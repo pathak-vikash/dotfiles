@@ -5,6 +5,13 @@ echo "Setting up your PC..."
 # Update Ubuntu
 apt-get update
 
+#  Check to see if Xclip is installed if not install it
+if [ $(dpkg-query -W -f='${Status}' xclip 2>/dev/null | grep -c "ok installed") -eq 0 ];
+then
+  echo 'xclip not installed .... installing now!'
+  sudo apt install xclip -y;
+fi
+
 # Install composer
 apt-get install composer
 
