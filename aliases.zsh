@@ -45,6 +45,7 @@ alias dcompose="docker-compose"
 # Git
 alias commit="git add . && git commit -m"
 alias gcommit="git add . && git commit"
+alias gpush="git push -u origin"
 alias amend="git add . && git commit --amend --no-edit"
 alias wip="commit wip"
 alias gst="git status"
