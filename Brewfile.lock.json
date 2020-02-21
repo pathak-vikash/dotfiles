@@ -374,7 +374,7 @@
       "Ubuntu 18.04.2 LTS (bionic)": {
         "HOMEBREW_VERSION": "2.2.6",
         "HOMEBREW_PREFIX": "/home/linuxbrew/.linuxbrew",
-        "Homebrew/linuxbrew-core": "b8c4b4e48f14e85511f1e667e8b6d36b8ea63518",
+        "Homebrew/linuxbrew-core": "688449efb6addc63acaaf1f0d6199e8de84d90d4",
         "GCC": "7.4.0"
       }
     }
