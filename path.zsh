@@ -16,7 +16,7 @@ eval $(/home/linuxbrew/.linuxbrew/bin/brew shellenv)
 # export PATH="$(brew --prefix coreutils)/libexec/gnubin:$PATH"
 
 #WSL - Windows Path
-export PATH="/C/Program Files/MySQL/mysql-5.7.23-winx64/bin:$PATH"
+export PATH="/C/Program\ Files/MySQL/mysql-5.7.23-winx64/bin:$PATH"
 
 # GO
 export PATH="/C/Go/bin:$PATH"
