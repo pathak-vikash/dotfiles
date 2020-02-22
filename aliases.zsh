@@ -28,9 +28,12 @@ alias a="php artisan"
 alias ams="php artisan migrate:fresh --seed"
 
 # PHP
-alias php73="/usr/local/Cellar/php@7.3/7.3.13/bin/php"
-alias php72="/usr/local/Cellar/php@7.2/7.2.26/bin/php"
+alias php73="/home/linuxbrew/.linuxbrew/Cellar/php@7.3/7.3.15/bin/php"
+alias php72="/home/linuxbrew/.linuxbrew/Cellar/php@7.2/7.2.28/bin/php"
 alias cfresh="rm -rf vendor/ composer.lock && composer i"
+
+# Python
+alias python3="/home/linuxbrew/.linuxbrew/Cellar/python/3.7.6_1/bin/python3"
 
 # JS
 alias nfresh="rm -rf node_modules/ package-lock.json && npm install"
@@ -58,3 +61,18 @@ alias resolve="git add . && git commit --no-edit"
 alias gl="git log --oneline --decorate --color"
 alias nuke="git clean -df && git reset --hard"
 alias unstage="git restore --staged ."
+
+
+# WSL - Windows Softwares
+
+alias ngrok="$DEVTOOLS/ngrok.exe"
+alias gomigrate="$DEVTOOLS/go-migrate.exe"
+alias protoc="$DEVTOOLS/protoc-3.7.0-rc-2-win64/bin/protoc.exe"
+alias fastoredis="$DEVTOOLS/fastoredis-1.24.0-x86_64-b7483d5/FastoRedis.exe"
+
+alias python="/C/Python27/python.exe"
+alias pythonw="/C/Python27/pythonw.exe"
+
+alias 7zG="/C/Program Files/7-Zip/7zG.exe"
+alias mosquotto="/C/Program Files/mosquitto/mosquitto.exe"
+alias subl="/C/Program Files/Sublime Text 3/subl.exe"

@@ -81,6 +81,8 @@ plugins=(git)
 source $ZSH/oh-my-zsh.sh
 
 # User configuration
+export PROJECTS_DIR=$HOME/Sites
+export DEVTOOLS="/D/projects/devtools"
 
 # export MANPATH="/usr/local/man:$MANPATH"
 

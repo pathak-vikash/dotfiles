@@ -14,7 +14,7 @@
         "revision": "7a55b70755f322aec377dc31eb3c5aa57c2a99a4"
       },
       "homebrew/bundle": {
-        "revision": "677f39d62a8aefdcbc091f193af1f7ddbee0052d"
+        "revision": "04a8b37bbdd9bb801a5fde72fd82232846cf2b69"
       }
     },
     "brew": {
@@ -160,76 +160,64 @@
         }
       },
       "php": {
-        "version": "7.4.2",
+        "version": "7.4.3",
         "bottle": {
           "cellar": "/home/linuxbrew/.linuxbrew/Cellar",
           "prefix": "/home/linuxbrew/.linuxbrew",
           "files": {
             "catalina": {
-              "url": "https://linuxbrew.bintray.com/bottles/php-7.4.2.catalina.bottle.tar.gz",
-              "sha256": "ddd14746138f0212dfd8d2c0944d573ce05c3ba900c2579440f7e8defa63b0c7"
+              "url": "https://linuxbrew.bintray.com/bottles/php-7.4.3.catalina.bottle.tar.gz",
+              "sha256": "9370af1b117049783f81968fc800d1710224581cb8d9f396c38d9eef8aedf3ac"
             },
             "mojave": {
-              "url": "https://linuxbrew.bintray.com/bottles/php-7.4.2.mojave.bottle.tar.gz",
-              "sha256": "fcc85c9f550df021a7f505d57c43e19672940c37ef7a1f909eec2d1d13202cef"
+              "url": "https://linuxbrew.bintray.com/bottles/php-7.4.3.mojave.bottle.tar.gz",
+              "sha256": "364332e23b489c53fe9efddc881bd9fa8366df5ea66f9e69c9c843d6ec64518d"
             },
             "high_sierra": {
-              "url": "https://linuxbrew.bintray.com/bottles/php-7.4.2.high_sierra.bottle.tar.gz",
-              "sha256": "edfcefb109b356338ed324305f7317659df02bb5a8252b67a696180e75e81b1c"
-            },
-            "x86_64_linux": {
-              "url": "https://linuxbrew.bintray.com/bottles/php-7.4.2.x86_64_linux.bottle.tar.gz",
-              "sha256": "78845766ada0a27a3272c51d57200103cf486b952b47d1cf98b4ce53132fb0ee"
+              "url": "https://linuxbrew.bintray.com/bottles/php-7.4.3.high_sierra.bottle.tar.gz",
+              "sha256": "c0c2fa82be5609534d3fdf875515e0d98ea17ed4de4f27aece8e275c840e889b"
             }
           }
         }
       },
       "php@7.3": {
-        "version": "7.3.14",
+        "version": "7.3.15",
         "bottle": {
           "cellar": "/home/linuxbrew/.linuxbrew/Cellar",
           "prefix": "/home/linuxbrew/.linuxbrew",
           "files": {
             "catalina": {
-              "url": "https://linuxbrew.bintray.com/bottles/php@7.3-7.3.14.catalina.bottle.tar.gz",
-              "sha256": "8787436451e0758a6105e02e39ed9be75ee9c8272d90f8782e07710386c6e89e"
+              "url": "https://linuxbrew.bintray.com/bottles/php@7.3-7.3.15.catalina.bottle.tar.gz",
+              "sha256": "b295b4b4e41af78c68196b98efcebe972b246e426db5158c86b2bd664d64b86a"
             },
             "mojave": {
-              "url": "https://linuxbrew.bintray.com/bottles/php@7.3-7.3.14.mojave.bottle.tar.gz",
-              "sha256": "572dcbf8459c7859a69e7e08de0ab48fdb71ddb70e26d2653f4529062102d4b9"
+              "url": "https://linuxbrew.bintray.com/bottles/php@7.3-7.3.15.mojave.bottle.tar.gz",
+              "sha256": "eee0d531ce4152f6e0cfa8c43de0965173c1c4249972ea4a12c3dc0f43a83551"
             },
             "high_sierra": {
-              "url": "https://linuxbrew.bintray.com/bottles/php@7.3-7.3.14.high_sierra.bottle.tar.gz",
-              "sha256": "0213eda812862e5e183ddbf094c0bcbf6901b9eed97d5507b5c3d22fd68cbb86"
-            },
-            "x86_64_linux": {
-              "url": "https://linuxbrew.bintray.com/bottles/php@7.3-7.3.14.x86_64_linux.bottle.tar.gz",
-              "sha256": "0a08052a691020c9d7e654a08c732e5833a049fcef21887e5f9c5eab74ee4c9f"
+              "url": "https://linuxbrew.bintray.com/bottles/php@7.3-7.3.15.high_sierra.bottle.tar.gz",
+              "sha256": "18ea5a2304edd524ad47e30672035c1b75d7158213468f3d89248655d9baea91"
             }
           }
         }
       },
       "php@7.2": {
-        "version": "7.2.27",
+        "version": "7.2.28",
         "bottle": {
           "cellar": "/home/linuxbrew/.linuxbrew/Cellar",
           "prefix": "/home/linuxbrew/.linuxbrew",
           "files": {
             "catalina": {
-              "url": "https://linuxbrew.bintray.com/bottles/php@7.2-7.2.27.catalina.bottle.tar.gz",
-              "sha256": "48f992816667bb5a68fa313c6fe038117a441a5e86eeafa98ec7c063777b0b3c"
+              "url": "https://linuxbrew.bintray.com/bottles/php@7.2-7.2.28.catalina.bottle.tar.gz",
+              "sha256": "c1113f11d2a1be9f698b47219e16aadf9e7a97bfa631ee4726bcd66ad33f2d73"
             },
             "mojave": {
-              "url": "https://linuxbrew.bintray.com/bottles/php@7.2-7.2.27.mojave.bottle.tar.gz",
-              "sha256": "2ab944e0812974fc02d97078953fcd33b740f0930225ccb9a855fda431477339"
+              "url": "https://linuxbrew.bintray.com/bottles/php@7.2-7.2.28.mojave.bottle.tar.gz",
+              "sha256": "391d87bcc35ecd71800b588c5081066b6dfd45130310ef0bb7e1937717cee24b"
             },
             "high_sierra": {
-              "url": "https://linuxbrew.bintray.com/bottles/php@7.2-7.2.27.high_sierra.bottle.tar.gz",
-              "sha256": "1bf0f596a78b0ccb62e4fb9567ab24ccdf831a040974b96e5b45a175a05ce0d1"
-            },
-            "x86_64_linux": {
-              "url": "https://linuxbrew.bintray.com/bottles/php@7.2-7.2.27.x86_64_linux.bottle.tar.gz",
-              "sha256": "70e35562cf2e1426d65dc48474050d7dc1c7b77eb4682d070449e6dfe5992bc8"
+              "url": "https://linuxbrew.bintray.com/bottles/php@7.2-7.2.28.high_sierra.bottle.tar.gz",
+              "sha256": "0e0ee695bc340bf4c5fe2fc62e565bc9fdead438bcbcc2fe1efea07364cba1f3"
             }
           }
         }
@@ -374,7 +362,7 @@
       "Ubuntu 18.04.2 LTS (bionic)": {
         "HOMEBREW_VERSION": "2.2.6",
         "HOMEBREW_PREFIX": "/home/linuxbrew/.linuxbrew",
-        "Homebrew/linuxbrew-core": "688449efb6addc63acaaf1f0d6199e8de84d90d4",
+        "Homebrew/linuxbrew-core": "514cf058ea044ee31236365e232a06fd55fa0376",
         "GCC": "7.4.0"
       }
     }

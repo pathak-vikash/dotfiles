@@ -35,8 +35,20 @@ brew bundle
 
 # Create a Sites directory
 # This is a default directory for macOS user accounts but doesn't comes pre-installed
-mkdir $HOME/Sites
+if [ -d $HOME/Sites ] 
+then
+    echo "Projects Directory ~/Sites already exists." 
+else
+    mkdir $HOME/Sites
+fi
 
 # Removes .zshrc from $HOME (if it exists) and symlinks the .zshrc file from the .dotfiles
 rm -rf $HOME/.zshrc
 ln -s $HOME/.dotfiles/.zshrc $HOME/.zshrc
+
+
+# WSL - Mount Drives
+echo "Mounting Drives."
+sudo ln -s /mnt/c /C
+sudo ln -s /mnt/d /D
+sudo ln -s /mnt/e /E
